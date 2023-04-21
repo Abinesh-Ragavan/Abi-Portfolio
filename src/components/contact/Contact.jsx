@@ -1,11 +1,27 @@
-import React from 'react'
+
 import './contact.css'
 
 import { AiOutlineMail } from 'react-icons/ai'
 
 import { AiFillLinkedin } from 'react-icons/ai'
 import { BsWhatsapp } from 'react-icons/bs'
-const contact = () => {
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_dllt1o6', 'template_754pof8', form.current, 'HamZWCAKLiVL9-s2H')
+        e.target.reset()
+
+    };
+    const handleclick = () => {
+
+        alert("thanks")
+    }
     return (
 
         <section id="contact">
@@ -35,18 +51,18 @@ const contact = () => {
 
                         <h4>Whatsapp</h4>
                         <h5>No Call</h5>
-                        <a href="https://wa.me/+918072600696" target='_blank'>send me a meesage</a>
+                        <a href="https://wa.me/+918072600696" target='_blank'>Propose Mwe </a>
                     </article>
                 </div>
 
 
 
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
 
                     <input type="text" name='name' placeholder=' your  FullName' required />
-                    <input type="email" name="email" placeholder='Emzail Burdha' required />
-                    <textarea name="message" rows="7" placeholder='Share your Feelings'></textarea>
-                    <button type='submit' className='btn btn-primary'>Send Message</button>
+                    <input type="email" name="email" placeholder='Email Burdha' required />
+                    <textarea name="message" rows="7" placeholder='Share your Feelings' required></textarea>
+                    <button type='submit' className='btn btn-primary newbtn' onClick={handleclick} >Send Message Burdha</button>
                 </form>
             </div>
 
@@ -58,4 +74,4 @@ const contact = () => {
     )
 }
 
-export default contact
+export default Contact
