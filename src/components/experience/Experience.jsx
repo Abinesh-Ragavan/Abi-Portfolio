@@ -18,7 +18,7 @@ const Experience = () => {
                             <div>
                                 <h4>HTML</h4>
 
-                                <small className='text-light'>Experienced</small></div>
+                                <small className='text-light'>Intermediate</small></div>
 
 
                         </article>
@@ -32,7 +32,7 @@ const Experience = () => {
                         <article className='experience__details '>
                             <BsFillSendCheckFill className='experience__details-icon' />
                             <div> <h4>JavaScrpit</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Intermediate</small>
                             </div>
 
 
@@ -52,7 +52,7 @@ const Experience = () => {
                             <div><h4>UI/UX </h4>
 
 
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Intermediate</small>
 
                             </div>
 
@@ -60,7 +60,7 @@ const Experience = () => {
                         <article className='experience__details '>
                             <BsFillSendCheckFill className='experience__details-icon' />
                             <div> <h4>React</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Intermediate</small>
                             </div>
 
 
@@ -80,7 +80,7 @@ const Experience = () => {
                             <BsFillSendCheckFill className='experience__details-icon' />
                             <div>
                                 <h4>Node js</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Beginner</small>
 
                             </div>
 
@@ -99,7 +99,7 @@ const Experience = () => {
                             <BsFillSendCheckFill className='experience__details-icon' />
                             <div>
                                 <h4>PHP</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <small className='text-light'>Beginner</small>
 
                             </div>
 
@@ -121,7 +121,7 @@ const Experience = () => {
                             <BsFillSendCheckFill className='experience__details-icon' />
                             <div>
                                 <h4>Express</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <small className='text-light'>Beginner</small>
 
                             </div>
 
@@ -132,7 +132,7 @@ const Experience = () => {
                             <BsFillSendCheckFill className='experience__details-icon' />
                             <div>
                                 <h4>Python</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Beginner</small>
 
                             </div>
 

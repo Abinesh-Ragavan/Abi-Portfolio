@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio4.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -13,50 +13,50 @@ const data
         {
             id: 1,
             image: IMG1,
-            title: 'crpto current & financila visulization',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            title: 'Realtime Private Chat Application',
+            github: 'https://github.com/Abinesh-Ragavan/chat-app',
+            demo: 'https://chat-cec53.web.app/login'
 
         },
         {
             id: 2,
             image: IMG2,
-            title: 'crpto current & financila visulization',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            title: 'Fashion Studio Website',
+            github: 'https://github.com/Abinesh-Ragavan/Fashion-Studio-Website-',
+            demo: 'https://abi-portfolio-94434.web.app/'
 
         },
         {
             id: 3,
             image: IMG3,
-            title: 'crpto current & financila visulization',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            title: 'Flames Crush Web app',
+            github: 'https://github.com/Abinesh-Ragavan/flames',
+            demo: 'https://abinesh-ragavan.github.io/flames/'
 
 
         },
         {
             id: 4,
             image: IMG4,
-            title: 'crpto current & financila visulization',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            title: 'Modern Company Website',
+            github: 'https://github.com/Abinesh-Ragavan/Modern-Company-Website',
+            demo: 'https://abinesh-ragavan.github.io/Modern-Company-Website/'
 
         },
         {
             id: 5,
             image: IMG5,
-            title: 'crpto current & financila visulization',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            title: 'Football-Player-Value-Prediction',
+            github: 'https://github.com/Abinesh-Ragavan/Football-Player-Value-Prediction',
+            demo: 'https://github.com/Abinesh-Ragavan/Football-Player-Value-Prediction'
 
         },
         {
             id: 6,
             image: IMG6,
-            title: 'crpto current & financila visulization',
-            github: 'https://github.com',
-            demo: 'https://github.com'
+            title: 'Exact clone of Cred OFFical website',
+            github: 'https://github.com/Abinesh-Ragavan/ecell',
+            demo: 'https://abinesh-ragavan.github.io/ecell/'
 
         },
     ]
