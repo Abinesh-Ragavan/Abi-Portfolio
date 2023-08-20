@@ -8,10 +8,12 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonals/Testimonals'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Loader from './components/loader/Loader'
 
 const App = () => {
     return (
         <>
+            <Loader />
             <Header />
             <Nav />
             <About />

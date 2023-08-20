@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './testimonals.css'
 import AV1 from '../../assets/avatar1.jpg'
 import AV2 from '../../assets/avatar2.jpg'

@@ -11,6 +11,23 @@ header {
 
 }
 
+.quotes {
+    position: relative;
+    text-align: right;
+    top: 170px;
+    /* font-style: ; */
+    left: 425px;
+    user-select: none;
+}
+
+q {
+    font-style: italic;
+    font-size: 20px;
+
+
+}
+
+
 
 /*******CTA***********/
 
@@ -76,6 +93,11 @@ header {
         height: 68vh;
     }
 
+    .quotes {
+
+        display: none;
+    }
+
 
 }
 
@@ -92,8 +114,10 @@ header {
     }
 
     .header__socials,
+    .quotes,
     .scroll__down {
         display: none;
     }
+
 
 }
